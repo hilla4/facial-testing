@@ -20,8 +20,12 @@ def sendMsg():
     client = Client(account_sid, auth_token)
     conn = dbc.return_conn()
     phone = dbc.select_phone_users(conn)
+    phone = ''.join(str(phone))
+    phone = phone.strip('(')
+    phone = phone.strip(')')
+    phone = phone.strip(',')
     message = client.messages.create(
-        to="+1"+phone,
+        to=phone,
         from_="+15595138433",
         body="Unknown user is in feed, check computer for image.")
 
@@ -32,6 +36,8 @@ ap.add_argument("-o", "--output", type=str,
                 help="path to output video")
 ap.add_argument("-y", "--display", type=int, default=1,
                 help="whether or not to display output frame to screen")
+ap.add_argument("-d", "--detection-method", type=str, default="hog",
+                help="face detection model to use: either `hog` or `cnn`")
 args = vars(ap.parse_args())
 
 # load the known faces and embeddings

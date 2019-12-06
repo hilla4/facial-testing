@@ -43,7 +43,7 @@ ap.add_argument("-y", "--display", type=int, default=1,
 ap.add_argument("-d", "--detection-method", type=str, default="hog",
                 help="face detection model to use: either `hog` or `cnn`")
 args = vars(ap.parse_args())
-
+count = 0
 # load the known faces and embeddings
 print("[INFO] loading encodings...")
 data = pickle.loads(open("encodings.pickle", "rb").read())

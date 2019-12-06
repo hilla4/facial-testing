@@ -46,7 +46,7 @@ class AddDatabaseWindowApp(databaseadd.Ui_MainWindow, QtWidgets.QMainWindow):
     def __init__(self):
         super(AddDatabaseWindowApp, self).__init__()
         self.setupUi(self)
-        self.setWindowTitle('Setup')
+        self.setWindowTitle('Add To Database')
         self.take_pic.clicked.connect(lambda: self.t_pic())
         self.browse_files.clicked.connect(lambda: self.b_files())
         self.cancelButton.clicked.connect(lambda: self.cancel())
@@ -54,11 +54,11 @@ class AddDatabaseWindowApp(databaseadd.Ui_MainWindow, QtWidgets.QMainWindow):
     def t_pic(self):
         name = self.enter_name.text()
         os.system("python add_pictures.py --name " + name)
+        os.system("python encode_faces.py")
 
     def b_files(self):
         name = self.enter_name.text()
         os.system("python browse_pictures.py --name " + name)
-        print(name)
 
     def cancel(self):
         startwin.show()
@@ -110,14 +110,14 @@ class LiveWindowApp(liveVideo.Ui_MainWindow, QtWidgets.QMainWindow):
         self.cancelButton.clicked.connect(lambda: self.cancel())
 
     def anaylze_button(self):
-        val = 0
+        val = '0'
         os.system("python recognize_faces_video.py --display "+val)
         startwin.show()
         self.close()
 
     def watch_anaylze_button(self):
-        val = 1
-        os.system("python recognize_faces_video_file.py --display " + val)
+        val = '1'
+        os.system("python recognize_faces_video.py --display " + val)
         startwin.show()
         self.close()
 
