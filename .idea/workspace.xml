@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199b8857-37fa-4ddd-8d57-bc793948adc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Aidan/00007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Dummy/00000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Dummy/00001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Dummy/00002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Dummy/00003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Dummy/00004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Mary/00000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Mary/00001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Mary/00002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Mary/00003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/dataset/Mary/00004.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/database" beforeDir="false" afterPath="$PROJECT_DIR$/python/database" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/encodings.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/python/encodings.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lunch_scene.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Ui_files/videofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Ui_files/videofile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Ui_files/videofile.ui" beforeDir="false" afterPath="$PROJECT_DIR$/python/Ui_files/videofile.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/mainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/mainWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/query_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/recognize_faces_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/recognize_faces_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/recognize_faces_video_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/recognize_faces_video_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UUnOKA2tGB4KrrdiiUvoBM34e8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -70,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.mainWindow">
     <configuration name="browse_pictures" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Facial-Recognition-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.mainWindow" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.browse_pictures" />
         <item itemvalue="Python.query_test" />
         <item itemvalue="Python.database_creator" />
@@ -204,7 +182,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

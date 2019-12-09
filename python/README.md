@@ -1,7 +1,7 @@
 # Facial-Recognition
-This GitHub includes the necessary files to run the major aspects of the application including the encodin file and the 
-facial recognition xml
-to use this copy these files into a python project and download the necessary dependencies which includes
+To be able to run this code you need to clone this onto the python path then download visual studios with a c compiler
+as some of the dependencies will not be installable without it. Following that you can download all the following
+ dependencies.
 
 Click	7.0	7.0
 
@@ -52,26 +52,22 @@ twilio	6.34.0	6.34.0
 urllib3	1.25.7	1.25.7
 
 
-as well as a c interpreter in visual studios
+   Once all the necessary dependencies are there you can use this code. To run this code you run the mainWindow.py file
+which will open the UI which has a few options. In the top right there is a button labeled "..." which clicking will allow 
+you to set your name, your phone number that will receive the texts and your email clicking ok will store it into the 
+database. Once you are in the database you can click the "Add to Dataset" button. This button gives you the option to 
+add pictures to the dataset that will be recognized when running the video analysis. You can add pictures by either 
+taking pictures with your camera or browsing your computer for saved pictures, once added the database will need to 
+re encode the dataset  so the larger the dataset gets the longer this will take. Once you have added pictures to the
+dataset you can run either analysis on live video or on a video file which will analyze the video and if an 
+unrecognized user is in the feed for 20 frames it will send a text to the phone number in the database alerting you 
+that there is an unauthorized user and it will save a picture to the directory that has the project.
+ 
+   Known issues:
+   
+This application is currently unable to send texts to any numbers that are not mine because the application im using to 
+send texts is a free trial, with a paid subscription this would be solved.
 
-once the dependencies are collected (i used pycharm on windows) you should create a 'dataset' directory in the project directory
-this is where all the pictures will be stored to encode
-after that you nned to create your own twilio account and adjust the information to send from your twilio numer, to your own number
-and use your account sid and token as i would rather not pay for a real account at this point in time.
+If you try to add to the dataset without specifying a name it will fail.
 
-once all the necessary directories are there and all the twilio is correct and the dependencies are created you can use this code. 
-to run begin by adding to the dataset you can either run the Add_encode.py which will use your computer camera to take and store pictures 
-of your face in the dataset under the chosen name. Alternatively you can take pictures from your local machine or anywhere else and store 
-them in the dataset by creating a new name directory and saving the pictures in there. If you store pictures not by using Add_encode.py 
-make sure you run encode_faces.py before you try to run any facial recognition on video software.  Once your dataset is filled and the
-faces are encoded you are ready to run video recognition.  
-
-Running recognize_faces_video.py has several options. If you run the code as is it will bring up a video that shows what the camera is 
-picking up and the faces as well as the name of the person. However if you run it from a terminal you can change certain arguments you
-can make the video feed not show up or increase accuracy at the cost of more processing power required check the arg parser for options.
-For recognize_faces_video_file.py it requires that you give it a path to a video file which means read the arg parser are determine what
-is needed for that, it has similar abilities to the video feed file.
-
-"it works on my machine" which is many programmers downfall but i havent tested this on other computers as i only have 1 with a camera
-so if you have any questions email me at hilla4@duq.edu. In the future given time i intend to add other functionality to the program 
-when it detects unknown faces as well as a ui for easier use.
+Running any video analysis without having a camera

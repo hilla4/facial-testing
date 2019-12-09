@@ -111,7 +111,7 @@ class LiveWindowApp(liveVideo.Ui_MainWindow, QtWidgets.QMainWindow):
 
     def anaylze_button(self):
         val = '0'
-        os.system("python recognize_faces_video.py --display "+val)
+        os.system("python recognize_faces_video.py --display " + val)
         startwin.show()
         self.close()
 
