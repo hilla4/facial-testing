@@ -3,10 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="199b8857-37fa-4ddd-8d57-bc793948adc3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Ui_files/videofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Ui_files/videofile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Ui_files/videofile.ui" beforeDir="false" afterPath="$PROJECT_DIR$/python/Ui_files/videofile.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/mainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/mainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/database" beforeDir="false" afterPath="$PROJECT_DIR$/python/database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Aidan/00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Dummy/00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Dummy/00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Dummy/00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Dummy/00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Dummy/00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Mary/00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Mary/00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Mary/00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Mary/00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/dataset/Mary/00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/encodings.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/python/encodings.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/recognize_faces_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/recognize_faces_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/recognize_faces_video_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/recognize_faces_video_file.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="database_creator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="encode_faces" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Facial-Recognition-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/database_creator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/encode_faces.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.mainWindow" />
+        <item itemvalue="Python.encode_faces" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.browse_pictures" />
         <item itemvalue="Python.query_test" />
-        <item itemvalue="Python.database_creator" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +194,9 @@
       <updated>1575420007603</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

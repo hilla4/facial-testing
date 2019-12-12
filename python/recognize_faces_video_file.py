@@ -13,9 +13,9 @@ import cv2
 
 
 def sendMsg():
-    account_sid = "ACc6043bec84ced717253f054fc93af5ec"
+    account_sid = "AC616223da6f74cd3f4d44f3288b3fe45f"
     # Your Auth Token from twilio.com/console
-    auth_token = "c274a27ddb3b13a9d6cb1dc80ccd3d9a"
+    auth_token = "64e7c1faaacf88bb601b7aacf6deb71a"
 
     client = Client(account_sid, auth_token)
     conn = dbc.return_conn()
@@ -26,10 +26,9 @@ def sendMsg():
     phone = phone.strip(',')
     message = client.messages.create(
         to=phone,
-        from_="+15595138433",
+        from_="+12053464903",
         body="Unknown user is in feed, check computer for image.")
 
-    print(message.sid)
 
 
 # construct the argument parser and parse the arguments
